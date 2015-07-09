@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DirectShowLib</id>
+        <version>1.0.0</version>
+        <authors>ANTPro</authors>
+        <owners>DirectShow .NET Team</owners>
+        <licenseUrl>https://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+        <projectUrl>https://github.com/ANTPro/DirectShowLib</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A port of DirectShowLib to many .NET Frameworks.  There have been no changes made to this from the available source that is available @ http://directshownet.sourceforge.net/</description>
+    </metadata>
+    <files>
+        <file src="DirectShowLib\bin\Release\2.0\DirectShowLib.dll" target="lib\net20\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\3.0\DirectShowLib.dll" target="lib\net30\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\3.5\DirectShowLib.dll" target="lib\net35\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\3.5C\DirectShowLib.dll" target="lib\net35-client\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\4.0\DirectShowLib.dll" target="lib\net40\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\4.0C\DirectShowLib.dll" target="lib\net40-client\DirectShowLib.dll" />
+        <file src="DirectShowLib\bin\Release\4.5\DirectShowLib.dll" target="lib\net45\DirectShowLib.dll" />
+    </files>
+</package>
